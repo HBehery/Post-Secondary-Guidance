@@ -63,7 +63,7 @@ def results():
         if length == 0:
             invalidMessage.insert(tk.END,' |Subject| ','invalid')
         invalidMessage.configure(state="disabled")
-        winsound.PlaySound("error.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("audio/error.wav", winsound.SND_ASYNC)
     else:
         results1 = tk.Toplevel()
         results1.resizable(False, False)
@@ -157,7 +157,7 @@ def results():
             uni3ResultsFavsButton.config(command = lambda: addToFavs(victoriaUniLabel))
         
         #McGill Assets
-            McGillResultImg = Image.open("McGill#1.jpg").resize((175, 175))
+            McGillResultImg = Image.open("images/McGill#1.jpg").resize((175, 175))
             McGillResultPhoto = ImageTk.PhotoImage(McGillResultImg)
             McGillResultImageLabel = tk.Label(uniResultsFrame1, image=McGillResultPhoto)
             McGillResultImageLabel.image = McGillResultPhoto
@@ -186,7 +186,7 @@ chance at acceptance. Along with that, tuition comes at a mid-range
 price for both domestic and international students, ranging from
 approximately $7 000 (domestic), and a difficult $45 000
 (international) per year.''', 'main')
-            torontoResultImg = Image.open("toronto#1.jpg").resize((175, 175))
+            torontoResultImg = Image.open("images/toronto#1.jpg").resize((175, 175))
             torontoResultPhoto = ImageTk.PhotoImage(torontoResultImg)
             torontoResultImageLabel = tk.Label(uniResultsFrame2, image=torontoResultPhoto)
             torontoResultImageLabel.image = torontoResultPhoto
@@ -202,7 +202,7 @@ get into, as students applying will require an average in the mid to high
 that, tuition comes at an affordable price for both domestic and
 international students, ranging from approximately $6 428 (domestic) to
 $20 000 (international) per year, including ancillary fees.''', 'main')
-            victoriaResultImg = Image.open("victoria#1.jpg").resize((175, 175))
+            victoriaResultImg = Image.open("images/victoria#1.jpg").resize((175, 175))
             victoriaResultPhoto = ImageTk.PhotoImage(victoriaResultImg)
             victoriaResultImageLabel = tk.Label(uniResultsFrame3, image=victoriaResultPhoto)
             victoriaResultImageLabel.image = victoriaResultPhoto
@@ -244,7 +244,7 @@ both domestic and international students, ranging from approximately
 $17 000 (domestic) to $33 000(international) per year, including
 ancillary fees.''', 'main') 
             waterlooResultSummary.configure(state="disabled")
-            waterlooResultImg = Image.open("waterloo#1.jpg").resize((175, 175))
+            waterlooResultImg = Image.open("images/waterloo#1.jpg").resize((175, 175))
             waterlooResultPhoto = ImageTk.PhotoImage(waterlooResultImg)
             waterlooResultImageLabel = tk.Label(uniResultsFrame1, image=waterlooResultPhoto)
             waterlooResultImageLabel.image = waterlooResultPhoto
@@ -260,7 +260,7 @@ tuition comes at a mid-range price for both domestic and
 international students, ranging from approximately $7 000
 (domestic) to $22 000 (international) per year.''', 'main')
             guelphResultSummary.configure(state="disabled")
-            guelphResultImg = Image.open("guelph#1.jpg").resize((175, 175))
+            guelphResultImg = Image.open("images/guelph#1.jpg").resize((175, 175))
             guelphResultPhoto = ImageTk.PhotoImage(guelphResultImg)
             guelphResultImageLabel = tk.Label(uniResultsFrame2, image=guelphResultPhoto)
             guelphResultImageLabel.image = guelphResultPhoto
@@ -277,7 +277,7 @@ Along with that, tuition comes at an affordable price for both domestic
 and international students, ranging from approximately $5 500(domestic)
 to $14 000 (international) per year, including ancillary fees.''', 'main')
             windsorResultSummary.configure(state="disabled")
-            windsorResultImg = Image.open("windsor#1.jpg").resize((175, 175))
+            windsorResultImg = Image.open("images/windsor#1.jpg").resize((175, 175))
             windsorResultPhoto = ImageTk.PhotoImage(windsorResultImg)
             windsorResultImageLabel = tk.Label(uniResultsFrame3, image=windsorResultPhoto)
             windsorResultImageLabel.image = windsorResultPhoto
@@ -412,7 +412,7 @@ to $14 000 (international) per year, including ancillary fees.''', 'main')
                 uni3ResultsLearnButton2.config(command = lambda: learnMore(victoriaUniLabel))
                 uni3ResultsFavsButton2.config(command = lambda: addToFavs(victoriaUniLabel))
                     #McGill Assets
-                McGillResultImg2 = Image.open("McGill#1.jpg").resize((175, 175))
+                McGillResultImg2 = Image.open("images/McGill#1.jpg").resize((175, 175))
                 McGillResultPhoto2 = ImageTk.PhotoImage(McGillResultImg2)
                 McGillResultImageLabel2 = tk.Label(uniResultsFrame1b, image=McGillResultPhoto2)
                 McGillResultImageLabel2.image = McGillResultPhoto2
@@ -442,7 +442,7 @@ price for both domestic and international students, ranging from
 approximately $7 000 (domestic), and a difficult $45 000
 (international) per year.''', 'main')
                 torontoResultSummary2.configure(state="disabled")
-                torontoResultImg2 = Image.open("toronto#1.jpg").resize((175, 175))
+                torontoResultImg2 = Image.open("images/toronto#1.jpg").resize((175, 175))
                 torontoResultPhoto2 = ImageTk.PhotoImage(torontoResultImg2)
                 torontoResultImageLabel2 = tk.Label(uniResultsFrame2b, image=torontoResultPhoto2)
                 torontoResultImageLabel2.image = torontoResultPhoto2
@@ -458,7 +458,7 @@ that, tuition comes at an affordable price for both domestic and
 international students, ranging from approximately $6 428 (domestic) to
 $20 000 (international) per year, including ancillary fees.''', 'main')
                 victoriaResultSummary2.configure(state="disabled")
-                victoriaResultImg2 = Image.open("victoria#1.jpg").resize((175, 175))
+                victoriaResultImg2 = Image.open("images/victoria#1.jpg").resize((175, 175))
                 victoriaResultPhoto2 = ImageTk.PhotoImage(victoriaResultImg2)
                 victoriaResultImageLabel2 = tk.Label(uniResultsFrame3b, image=victoriaResultPhoto2)
                 victoriaResultImageLabel2.image = victoriaResultPhoto2
@@ -499,7 +499,7 @@ both domestic and international students, ranging from approximately
 $17 000 (domestic) to $33 000(international) per year, including
 ancillary fees.''', 'main') 
                 waterlooResultSummary2.configure(state="disabled")
-                waterlooResultImg2 = Image.open("waterloo#1.jpg").resize((175, 175))
+                waterlooResultImg2 = Image.open("images/waterloo#1.jpg").resize((175, 175))
                 waterlooResultPhoto2 = ImageTk.PhotoImage(waterlooResultImg2)
                 waterlooResultImageLabel2 = tk.Label(uniResultsFrame1b, image=waterlooResultPhoto2)
                 waterlooResultImageLabel2.image = waterlooResultPhoto2
@@ -515,7 +515,7 @@ tuition comes at a mid-range price for both domestic and
 international students, ranging from approximately $7 000
 (domestic) to $22 000 (international) per year.''', 'main')
                 guelphResultSummary2.configure(state="disabled")
-                guelphResultImg2 = Image.open("guelph#1.jpg").resize((175, 175))
+                guelphResultImg2 = Image.open("images/guelph#1.jpg").resize((175, 175))
                 guelphResultPhoto2 = ImageTk.PhotoImage(guelphResultImg2)
                 guelphResultImageLabel2 = tk.Label(uniResultsFrame2b, image=guelphResultPhoto2)
                 guelphResultImageLabel2.image = guelphResultPhoto2
@@ -532,7 +532,7 @@ Along with that, tuition comes at an affordable price for both domestic
 and international students, ranging from approximately $5 500(domestic)
 to $14 000 (international) per year, including ancillary fees.''', 'main')
                 windsorResultSummary2.configure(state="disabled")
-                windsorResultImg2 = Image.open("windsor#1.jpg").resize((175, 175))
+                windsorResultImg2 = Image.open("images/windsor#1.jpg").resize((175, 175))
                 windsorResultPhoto2 = ImageTk.PhotoImage(windsorResultImg2)
                 windsorResultImageLabel2 = tk.Label(uniResultsFrame3b, image=windsorResultPhoto2)
                 windsorResultImageLabel2.image = windsorResultPhoto2
@@ -834,7 +834,7 @@ def checkBoxes(checkboxVar):
         
         alertMessage = ttk.Label(alertFrame,text = "You Can Only Select Two Subjects!", justify='center',background='#ffe6e6')
         alertMessage.grid(row=1,column=1)
-        winsound.PlaySound("error.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("audio/error.wav", winsound.SND_ASYNC)
     length = len(sub)
     if length == 2:
         subjectLabel.config(text=f'Choose 1-2 Favourite Subjects: {sub[0]} and {sub[1]}')
@@ -856,7 +856,7 @@ def addToFavs(uniLabel):
         favLabel = ttk.Label(addedFavsFrame,text = f'{uniLabel["text"]} has already been added to your favourties!', justify ='center',background='#ffe6e6')
         f.config(background='#ffcccc')
         addedFavsFrame.config(background='#ffe6e6')
-        winsound.PlaySound("error.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("audio/error.wav", winsound.SND_ASYNC)
     elif uniLabel not in favList and numberOfFavs < 3:
         favLabel = ttk.Label(addedFavsFrame,text = f'{uniLabel["text"]} has been added to your favourties!', justify ='center',background='#eee6ff')
         
@@ -865,7 +865,7 @@ def addToFavs(uniLabel):
         f.config(background='#ffffb3')
         addedFavsFrame.config(background='#ffffe6')
         favLabel = ttk.Label(addedFavsFrame,text = f'Maximum of three items in your favourites, please remove one to add more.', justify ='center',background='#ffffe6') 
-        winsound.PlaySound("error.wav", winsound.SND_ASYNC)
+        winsound.PlaySound("audio/error.wav", winsound.SND_ASYNC)
     favsButton2 = ttk.Button(addedFavsFrame,text="Favourites List",command = favsDel,width =15)
     addedFavsFrame.grid(padx=10,pady=10)
     favLabel.grid(row=1,column=1, columnspan=3)
@@ -874,7 +874,6 @@ def addToFavs(uniLabel):
     
 
 def learnMore(uniLabel):
-    title = uniLabel
     l = tk.Toplevel()
     l.resizable(False, False)
     l.config(background='#ffcccc')
@@ -882,7 +881,7 @@ def learnMore(uniLabel):
     learnMoreFrame.config(background='#ffe6e6')
     learnMoreFrame.grid(padx=10,pady=10)
 #Waterloo
-    waterlooLearnImg = Image.open("waterloo#1.jpg").resize((175, 175))
+    waterlooLearnImg = Image.open("images/waterloo#1.jpg").resize((175, 175))
     waterlooLearnPhoto = ImageTk.PhotoImage(waterlooLearnImg)
     waterlooLearnImageLabel = tk.Label(learnMoreFrame, image=waterlooLearnPhoto)
     waterlooLearnImageLabel.image = waterlooLearnPhoto
@@ -903,12 +902,12 @@ in Canada, and in the top 200 among other universities in the world, as of the
 present day. Undergraduates who graduate from this university will receive a
 bachelor’s of computer science.''','main')
     waterlooDescription.configure(state="disabled")
-    waterloo2Img = Image.open("waterloo#2.jpg").resize((175, 175))
+    waterloo2Img = Image.open("images/waterloo#2.jpg").resize((175, 175))
     waterloo2Photo = ImageTk.PhotoImage(waterloo2Img)
     waterloo2ImageLabel = tk.Label(learnMoreFrame, image=waterloo2Photo)
     waterloo2ImageLabel.image = waterloo2Photo
 #Guelph
-    guelphLearnImg = Image.open("guelph#1.jpg").resize((175, 175))
+    guelphLearnImg = Image.open("images/guelph#1.jpg").resize((175, 175))
     guelphLearnPhoto = ImageTk.PhotoImage(guelphLearnImg)
     guelphLearnImageLabel = tk.Label(learnMoreFrame, image=guelphLearnPhoto)
     guelphLearnImageLabel.image = guelphLearnPhoto
@@ -929,12 +928,12 @@ ranked 19th in Canada, and in the top 600th among other universities in the worl
 as of the present day. Undergraduates who graduate from this university will
 receive a bachelor’s of computing. ''','main')
     guelphDescription.configure(state="disabled")
-    guelph2Img = Image.open("guelph#2.jpg").resize((175, 175))
+    guelph2Img = Image.open("images/guelph#2.jpg").resize((175, 175))
     guelph2Photo = ImageTk.PhotoImage(guelph2Img)
     guelph2ImageLabel = tk.Label(learnMoreFrame, image=guelph2Photo)
     guelph2ImageLabel.image = guelph2Photo
 #Windsor
-    windsorLearnImg = Image.open("windsor#1.jpg").resize((175, 175))
+    windsorLearnImg = Image.open("images/windsor#1.jpg").resize((175, 175))
     windsorLearnPhoto = ImageTk.PhotoImage(windsorLearnImg)
     windsorLearnImageLabel = tk.Label(learnMoreFrame, image=windsorLearnPhoto)
     windsorLearnImageLabel.image = windsorLearnPhoto
@@ -955,12 +954,12 @@ the top 800 among other universities in the world, as of the present day.
 Undergraduates who graduate from this university will receive a bachelor’s of
 computer science. ''','main')
     windsorDescription.configure(state="disabled")
-    windsor2Img = Image.open("windsor#2.jpg").resize((175, 175))
+    windsor2Img = Image.open("images/windsor#2.jpg").resize((175, 175))
     windsor2Photo = ImageTk.PhotoImage(windsor2Img)
     windsor2ImageLabel = tk.Label(learnMoreFrame, image=windsor2Photo)
     windsor2ImageLabel.image = windsor2Photo
 #McGill
-    McGillLearnImg = Image.open("McGill#1.jpg").resize((175, 175))
+    McGillLearnImg = Image.open("images/McGill#1.jpg").resize((175, 175))
     McGillLearnPhoto = ImageTk.PhotoImage(McGillLearnImg)
     McGillLearnImageLabel = tk.Label(learnMoreFrame, image=McGillLearnPhoto)
     McGillLearnImageLabel.image = McGillLearnPhoto
@@ -980,12 +979,12 @@ and in the top 50 among other universities in the world, as of 2019. Undergradua
 who graduate from this university will receive a bachelor’s of science, and can
 choose to specialize into many different professions.''','main')
     McGillDescription.configure(state="disabled")
-    McGill2Img = Image.open("McGill#2.jpg").resize((175, 175))
+    McGill2Img = Image.open("images/McGill#2.jpg").resize((175, 175))
     McGill2Photo = ImageTk.PhotoImage(McGill2Img)
     McGill2ImageLabel = tk.Label(learnMoreFrame, image=McGill2Photo)
     McGill2ImageLabel.image = McGill2Photo
 #Toronto
-    torontoLearnImg = Image.open("toronto#1.jpg").resize((175, 175))
+    torontoLearnImg = Image.open("images/toronto#1.jpg").resize((175, 175))
     torontoLearnPhoto = ImageTk.PhotoImage(torontoLearnImg)
     torontoLearnImageLabel = tk.Label(learnMoreFrame, image=torontoLearnPhoto)
     torontoLearnImageLabel.image = torontoLearnPhoto
@@ -1005,12 +1004,12 @@ and in the top 25 among other universities in the world, as of the present day.
 Undergraduates who graduate from this university will receive a bachelor’s of
 science, and have the freedom to specialize it into a variety of careers. ''','main')
     torontoDescription.configure(state="disabled")
-    toronto2Img = Image.open("toronto#2.jpg").resize((175, 175))
+    toronto2Img = Image.open("images/toronto#2.jpg").resize((175, 175))
     toronto2Photo = ImageTk.PhotoImage(toronto2Img)
     toronto2ImageLabel = tk.Label(learnMoreFrame, image=toronto2Photo)
     toronto2ImageLabel.image = toronto2Photo
 #Victoria
-    victoriaLearnImg = Image.open("victoria#1.jpg").resize((175, 175))
+    victoriaLearnImg = Image.open("images/victoria#1.jpg").resize((175, 175))
     victoriaLearnPhoto = ImageTk.PhotoImage(victoriaLearnImg)
     victoriaLearnImageLabel = tk.Label(learnMoreFrame, image=victoriaLearnPhoto)
     victoriaLearnImageLabel.image = victoriaLearnPhoto
@@ -1031,7 +1030,7 @@ and in the top 350 among other universities in the world, as of the present day.
 Undergraduateswho graduate from this university will receive a bachelor’s of
 science, and have the freedom to specialize it into a variety of careers.''','main')
     victoriaDescription.configure(state="disabled")
-    victoria2Img = Image.open("victoria#2.jpg").resize((175, 175))
+    victoria2Img = Image.open("images/victoria#2.jpg").resize((175, 175))
     victoria2Photo = ImageTk.PhotoImage(victoria2Img)
     victoria2ImageLabel = tk.Label(learnMoreFrame, image=victoria2Photo)
     victoria2ImageLabel.image = victoria2Photo
@@ -1081,7 +1080,7 @@ def displayBudget(event):
 #Widgets
     #MAINFRAME
 
-bgImg = Image.open("a.jpg").resize((450,300))
+bgImg = Image.open("images/a.jpg").resize((450,300))
 bgImg.putalpha(150)
 bgPhoto = ImageTk.PhotoImage(bgImg)
 backgroundImage=tk.PhotoImage()
@@ -1221,7 +1220,7 @@ both domestic and international students, ranging from approximately
 $17 000 (domestic) to $33 000(international) per year, including
 ancillary fees.''', 'main') 
 waterlooSummary.configure(state="disabled")
-waterlooImg = Image.open("waterloo#1.jpg").resize((175, 175))
+waterlooImg = Image.open("images/waterloo#1.jpg").resize((175, 175))
 waterlooPhoto = ImageTk.PhotoImage(waterlooImg)
 waterlooImageLabel = tk.Label(uniFrame1, image=waterlooPhoto)
 waterlooImageLabel.image = waterlooPhoto
@@ -1238,7 +1237,7 @@ tuition comes at a mid-range price for both domestic and
 international students, ranging from approximately $7 000
 (domestic) to $22 000 (international) per year.''', 'main')
 guelphSummary.configure(state="disabled")
-guelphImg = Image.open("guelph#1.jpg").resize((175, 175))
+guelphImg = Image.open("images/guelph#1.jpg").resize((175, 175))
 guelphPhoto = ImageTk.PhotoImage(guelphImg)
 guelphImageLabel = tk.Label(uniFrame2, image=guelphPhoto)
 guelphImageLabel.image = guelphPhoto
@@ -1256,7 +1255,7 @@ Along with that, tuition comes at an affordable price for both domestic
 and international students, ranging from approximately $5 500(domestic)
 to $14 000 (international) per year, including ancillary fees.''', 'main')
 windsorSummary.configure(state="disabled")
-windsorImg = Image.open("windsor#1.jpg").resize((175, 175))
+windsorImg = Image.open("images/windsor#1.jpg").resize((175, 175))
 windsorPhoto = ImageTk.PhotoImage(windsorImg)
 windsorImageLabel = tk.Label(uniFrame3, image=windsorPhoto)
 windsorImageLabel.image = windsorPhoto
@@ -1273,7 +1272,7 @@ and international students, ranging from approximately $9 000
 (domestic) to $20 000 (international) per year, including
 ancillary fees.''', 'main')
 McGillSummary.configure(state="disabled")
-McGillImg = Image.open("McGill#1.jpg").resize((175, 175))
+McGillImg = Image.open("images/McGill#1.jpg").resize((175, 175))
 McGillPhoto = ImageTk.PhotoImage(McGillImg)
 McGillImageLabel = tk.Label(uniFrame1, image=McGillPhoto)
 McGillImageLabel.image = McGillPhoto
@@ -1290,7 +1289,7 @@ price for both domestic and international students, ranging from
 approximately $7 000 (domestic), and a difficult $45 000
 (international) per year.''', 'main')
 torontoSummary.configure(state="disabled")
-torontoImg = Image.open("toronto#1.jpg").resize((175, 175))
+torontoImg = Image.open("images/toronto#1.jpg").resize((175, 175))
 torontoPhoto = ImageTk.PhotoImage(torontoImg)
 torontoImageLabel = tk.Label(uniFrame2, image=torontoPhoto)
 torontoImageLabel.image = torontoPhoto
@@ -1306,7 +1305,7 @@ that, tuition comes at an affordable price for both domestic and
 international students, ranging from approximately $6 428 (domestic) to
 $20 000 (international) per year, including ancillary fees.''', 'main')
 victoriaSummary.configure(state="disabled")
-victoriaImg = Image.open("victoria#1.jpg").resize((175, 175))
+victoriaImg = Image.open("images/victoria#1.jpg").resize((175, 175))
 victoriaPhoto = ImageTk.PhotoImage(victoriaImg)
 victoriaImageLabel = tk.Label(uniFrame3, image=victoriaPhoto)
 victoriaImageLabel.image = victoriaPhoto
