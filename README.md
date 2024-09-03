@@ -7,13 +7,13 @@ Coded in Python tkinter, this is a program that gives you a general outlook towa
 - Budget for total expenses per year
 - Canadian Citizenship/Residency
 
-![Homescreen](homescreen.png)
+![Homescreen](images/homescreen.png)
 
-![Questionnaire Image](questionnaire.png)
+![Questionnaire Image](images/questionnaire.png)
 
 **If you don't want to fill out the questionnaire (none of your data is saved), you can simply browse through the catalog of different universities per subject area:**
 
-![Browse Universties by Program!](browse.png)
+![Browse Universties by Program!](images/browse.png)
 
 > **_NOTE:_** The only programs/subjects for which universities were input are Biology and Computer Science.
 > You can also add universities to your favourites list or sort them by ranking, tuition, and campus size.
